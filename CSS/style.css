@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Prompt:ital,wght@0,200;1,400&family=Roboto&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    /* position: relative; */
+    /* top: 5rem; */
+    min-height: 100%;
+    margin: 0 20%;
+    background: rgb(218, 167, 169);
+    background: linear-gradient(180deg, rgba(218, 167, 169, 1) 11%, rgba(191, 101, 104, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: roboto, sans-serif;
+    color: #ffffff;
+
+    padding: 0;
+    height: 100%;
+}
+
+/* Header */
+
+#company-name {
+    position: relative;
+    top: -2rem;
+}
+
+header>nav img {
+    width: 5rem;
+    height: 5rem;
+}
+
+#header>nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-second-part {
+    display: flex;
+    gap: 1rem;
+}
+
+#header {
+    border-bottom: .1rem #ffffff4b solid;
+    /* position: fixed; */
+    /* width: 60%; */
+    /* top: 0; */
+    /* background-color: rgb(243, 151, 151); */
+}
+
+#company-name {
+    font-size: 1.5rem;
+    font-family: prompt, sans-serif;
+}
+
+#nav-second-part>a {
+    font-family: roboto, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Header end */
+
+/* Main */
+
+#main {
+    position: relative;
+    top: 1rem;
+}
+
+#right-section #form-title {
+    font-size: 1.5rem;
+}
+
+#left-section {
+    float: left;
+    width: 50%;
+    height: 550px;
+}
+
+#right-section {
+    float: right;
+    width: 33%
+}
+
+#right-section input {
+    box-sizing: border-box;
+    border: none;
+    border-radius: .3em;
+    width: 100%;
+    height: 2rem;
+}
+
+#left-section h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+#left-section h2 {
+    font-size: 1.25rem;
+    font-weight: 200;
+    word-spacing: .15rem;
+}
+
+#submit {
+    position: relative;
+    top: .5rem;
+
+    width: 50% !important;
+    height: 2rem;
+
+    margin-left: 25%;
+
+    font-size: 1rem;
+    background-color: #fc645f;
+    color: #fff;
+}
+
+#free-word {
+    color: #fc645f;
+    font-family: poppins, sans-serif;
+}
+
+/* Main End */
+
+/* Sub-main */
+
+#sub-main {
+    position: relative;
+    top: 2rem;
+    float: left;
+    width: 100%;
+    border-top: 2px #ffffff10 solid;
+}
+
+#sub-main-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+#img-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+#img-title {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    border-radius: 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+#sub-main-misc-text {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Sub-main End*/
+
+/* footer */
+footer {
+    position: relative;
+    top: 5rem;
+    border-top: .1rem #ffffff4b solid;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    height: 200px;
+    margin-top: -200px;
+}
+
+footer section div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul-title {
+    font-size: 1.25rem;
+}
+
+ul {
+    display: inline-block;
+    margin: 1rem 0 0 0 0;
+    padding: 0 0 0 0;
+
+    font-family: Poppins, sans-serif;
+}
+
+footer li {
+    list-style: none;
+    margin-top: 1rem;
+    font-family: roboto, sans-serif;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* footer end */
+
+
+
+
+/* effects */
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
